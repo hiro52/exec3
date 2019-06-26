@@ -5,4 +5,4 @@
 - name: SL Install
   yum:
     name: sl
-    state: present
+    state: absent
