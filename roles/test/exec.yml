@@ -1,0 +1,8 @@
+---
+- hosts: all
+  name: role-based playbook
+  become: yes
+
+  roles:
+    - sl
+    - hello
